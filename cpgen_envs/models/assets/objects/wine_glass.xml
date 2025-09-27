@@ -1,0 +1,34 @@
+<mujoco model="wine_glass">
+  <asset>
+    <mesh name="wine_glass" file="meshes/wine_glass/wine_glass.obj" scale="0.24 0.24 0.23"/>
+    <!-- <mesh name="wine_glass_collision_0" file="meshes/wine_glass_v1/wine_glass_v1_collision_0.obj" scale="0.24 0.24 0.23"/> -->
+    <mesh name="wine_glass_collision_1" file="meshes/wine_glass/wine_glass_collision_1.obj" scale="0.24 0.24 0.23"/>
+    <mesh name="wine_glass_collision_2" file="meshes/wine_glass/wine_glass_collision_2.obj" scale="0.24 0.24 0.23"/>
+    <mesh name="wine_glass_collision_3" file="meshes/wine_glass/wine_glass_collision_3.obj" scale="0.24 0.24 0.23"/>
+    <mesh name="wine_glass_collision_4" file="meshes/wine_glass/wine_glass_collision_4.obj" scale="0.24 0.24 0.23"/>
+    <mesh name="wine_glass_collision_5" file="meshes/wine_glass/wine_glass_collision_5.obj" scale="0.24 0.24 0.23"/>
+    <mesh name="wine_glass_collision_6" file="meshes/wine_glass/wine_glass_collision_6.obj" scale="0.24 0.24 0.23"/>
+    <mesh name="wine_glass_collision_7" file="meshes/wine_glass/wine_glass_collision_7.obj" scale="0.24 0.24 0.23"/>
+    <mesh name="wine_glass_collision_8" file="meshes/wine_glass/wine_glass_collision_8.obj" scale="0.24 0.24 0.23"/>
+    <mesh name="wine_glass_collision_9" file="meshes/wine_glass/wine_glass_collision_9.obj" scale="0.24 0.24 0.23"/>
+  </asset>
+  <worldbody>
+    <body>
+      <body name="object">
+        <!-- <geom name="stem_collision" type="box" pos="0 0 0.0075" size="0.08 0.08 0.0075" density="1000" rgba="0.87 0.7 0.45 1" group="0"/> -->
+        <geom mesh="wine_glass" name="wine_glass" type="mesh"  group="1" contype="0" conaffinity="0" rgba="1 1 1 1"/>
+        <geom name="stem_collision" type="box" pos="0 0 -0.07" rgba="0 0 0.7211070299400426 1" group="0" size="0.005 0.005 0.04" friction="2.0 0.2 0.01" condim="4"/>
+        <geom name="base_collision" type="box" pos="0 0 -0.115" rgba="0 0 0.7211070299400426 1"  group="0" size="0.035 0.035 0.0025"/>
+        <geom mesh="wine_glass_collision_1" rgba="0.44477046881988 0.010459003888439011 0.5018663739209853 1"  group="0" type="mesh"/>
+        <geom mesh="wine_glass_collision_2" rgba="0.6213299578201201 0.7406855717526576 0.671158449803338 1"  group="0" type="mesh"/>
+        <geom mesh="wine_glass_collision_3" rgba="0.00854571771581969 0.6337667207346851 0.43248487519501067 1"  group="0" type="mesh"/>
+        <geom mesh="wine_glass_collision_4" rgba="0.4548811213039966 0.25166648054873575 0.10789211120104081 1"  group="0" type="mesh"/>
+        <geom mesh="wine_glass_collision_5" rgba="0.5759654963692037 0.839661854662152 0.49009309977845683 1"  group="0" type="mesh"/>
+        <geom mesh="wine_glass_collision_6" rgba="0.3210017067101343 0.9572119993191395 0.5834911857149078 1"  group="0" type="mesh"/>
+        <geom mesh="wine_glass_collision_7" rgba="0.2935795448420372 0.18826568850338654 0.30437623400057423 1"  group="0" type="mesh"/>
+        <geom mesh="wine_glass_collision_8" rgba="0.5394688928985513 0.21140802979253792 0.9430541906708725 1"  group="0" type="mesh"/>
+        <geom mesh="wine_glass_collision_9" rgba="0.9296332490805126 0.3808728778780017 0.3736409419116651 1"  group="0" type="mesh"/>
+      </body>
+    </body>
+  </worldbody>
+</mujoco>

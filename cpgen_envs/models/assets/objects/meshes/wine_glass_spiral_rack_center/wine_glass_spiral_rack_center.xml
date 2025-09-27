@@ -1,0 +1,152 @@
+<mujoco model="wine-rack-spiral-center-centered-z">
+  <default>
+    <default class="visual">
+      <geom group="2" type="mesh" contype="0" conaffinity="0"/>
+    </default>
+    <default class="collision">
+      <geom group="3" type="mesh"/>
+    </default>
+  </default>
+  <asset>
+    <mesh file="wine_glass_spiral_rack_center.obj"/>
+    <mesh file="wine_glass_spiral_rack_center_0.obj"/>
+    <mesh file="wine_glass_spiral_rack_center_1.obj"/>
+    <mesh file="wine_glass_spiral_rack_center_2.obj"/>
+    <mesh file="wine_glass_spiral_rack_center_3.obj"/>
+    <mesh file="wine_glass_spiral_rack_center_4.obj"/>
+    <mesh file="wine_glass_spiral_rack_center_5.obj"/>
+    <mesh file="wine_glass_spiral_rack_center_6.obj"/>
+    <mesh file="wine_glass_spiral_rack_center_7.obj"/>
+    <mesh file="wine_glass_spiral_rack_center_8.obj"/>
+    <mesh file="wine_glass_spiral_rack_center_9.obj"/>
+    <mesh file="wine_glass_spiral_rack_center_10.obj"/>
+    <mesh file="wine_glass_spiral_rack_center_11.obj"/>
+    <mesh file="wine_glass_spiral_rack_center_12.obj"/>
+    <mesh file="wine_glass_spiral_rack_center_13.obj"/>
+    <mesh file="wine_glass_spiral_rack_center_14.obj"/>
+    <mesh file="wine_glass_spiral_rack_center_15.obj"/>
+    <mesh file="wine_glass_spiral_rack_center_16.obj"/>
+    <mesh file="wine_glass_spiral_rack_center_17.obj"/>
+    <mesh file="wine_glass_spiral_rack_center_18.obj"/>
+    <mesh file="wine_glass_spiral_rack_center_19.obj"/>
+    <mesh file="wine_glass_spiral_rack_center_20.obj"/>
+    <mesh file="wine_glass_spiral_rack_center_21.obj"/>
+    <mesh file="wine_glass_spiral_rack_center_22.obj"/>
+    <mesh file="wine_glass_spiral_rack_center_23.obj"/>
+    <mesh file="wine_glass_spiral_rack_center_24.obj"/>
+    <mesh file="wine_glass_spiral_rack_center_25.obj"/>
+    <mesh file="wine_glass_spiral_rack_center_26.obj"/>
+    <mesh file="wine_glass_spiral_rack_center_27.obj"/>
+    <mesh file="wine_glass_spiral_rack_center_28.obj"/>
+    <mesh file="wine_glass_spiral_rack_center_29.obj"/>
+    <mesh file="wine_glass_spiral_rack_center_30.obj"/>
+    <mesh file="wine_glass_spiral_rack_center_31.obj"/>
+    <mesh file="wine_glass_spiral_rack_center_32.obj"/>
+    <mesh file="wine_glass_spiral_rack_center_33.obj"/>
+    <mesh file="wine_glass_spiral_rack_center_34.obj"/>
+    <mesh file="wine_glass_spiral_rack_center_35.obj"/>
+    <mesh file="wine_glass_spiral_rack_center_36.obj"/>
+    <mesh file="wine_glass_spiral_rack_center_37.obj"/>
+    <mesh file="wine_glass_spiral_rack_center_38.obj"/>
+    <mesh file="wine_glass_spiral_rack_center_39.obj"/>
+    <mesh file="wine_glass_spiral_rack_center_40.obj"/>
+    <mesh file="wine_glass_spiral_rack_center_41.obj"/>
+    <mesh file="wine_glass_spiral_rack_center_42.obj"/>
+    <mesh file="wine_glass_spiral_rack_center_43.obj"/>
+    <mesh file="wine_glass_spiral_rack_center_44.obj"/>
+    <mesh file="wine_glass_spiral_rack_center_45.obj"/>
+    <mesh file="wine_glass_spiral_rack_center_46.obj"/>
+    <mesh file="wine_glass_spiral_rack_center_47.obj"/>
+    <mesh file="wine_glass_spiral_rack_center_48.obj"/>
+    <mesh file="wine_glass_spiral_rack_center_49.obj"/>
+    <mesh file="wine_glass_spiral_rack_center_50.obj"/>
+    <mesh file="wine_glass_spiral_rack_center_51.obj"/>
+    <mesh file="wine_glass_spiral_rack_center_52.obj"/>
+    <mesh file="wine_glass_spiral_rack_center_53.obj"/>
+    <mesh file="wine_glass_spiral_rack_center_54.obj"/>
+    <mesh file="wine_glass_spiral_rack_center_55.obj"/>
+    <mesh file="wine_glass_spiral_rack_center_56.obj"/>
+    <mesh file="wine_glass_spiral_rack_center_57.obj"/>
+    <mesh file="wine_glass_spiral_rack_center_58.obj"/>
+    <mesh file="wine_glass_spiral_rack_center_59.obj"/>
+    <mesh file="wine_glass_spiral_rack_center_60.obj"/>
+    <mesh file="wine_glass_spiral_rack_center_61.obj"/>
+    <mesh file="wine_glass_spiral_rack_center_62.obj"/>
+    <mesh file="wine_glass_spiral_rack_center_63.obj"/>
+    <mesh file="wine_glass_spiral_rack_center_64.obj"/>
+    <mesh file="wine_glass_spiral_rack_center_65.obj"/>
+    <mesh file="wine_glass_spiral_rack_center_66.obj"/>
+  </asset>
+  <worldbody>
+    <body name="wine-rack-spiral-center-centered-z">
+      <geom mesh="wine_glass_spiral_rack_center" class="visual"/>
+      <geom mesh="wine_glass_spiral_rack_center_0" rgba="0.8925728899999805 0.22426359224605852 0.6465876229444013 1" class="collision"/>
+      <geom mesh="wine_glass_spiral_rack_center_1" rgba="0.563824373768247 0.31326848932433893 0.2696090022678215 1" class="collision"/>
+      <geom mesh="wine_glass_spiral_rack_center_2" rgba="0.2693413035235006 0.4473219167775049 0.4481135257984816 1" class="collision"/>
+      <geom mesh="wine_glass_spiral_rack_center_3" rgba="0.41589189135813 0.7247092646962628 0.47977197456968335 1" class="collision"/>
+      <geom mesh="wine_glass_spiral_rack_center_4" rgba="0.7574412127467622 0.8671529910961493 0.06249166184478361 1" class="collision"/>
+      <geom mesh="wine_glass_spiral_rack_center_5" rgba="0.02810706199573898 0.933726216587625 0.17075529612765794 1" class="collision"/>
+      <geom mesh="wine_glass_spiral_rack_center_6" rgba="0.5472542947396353 0.09746607880058511 0.6654954536175696 1" class="collision"/>
+      <geom mesh="wine_glass_spiral_rack_center_7" rgba="0.17252111975065476 0.08537580465950134 0.9628981741798208 1" class="collision"/>
+      <geom mesh="wine_glass_spiral_rack_center_8" rgba="0.5426556793281766 0.7943952874043113 0.196481522487976 1" class="collision"/>
+      <geom mesh="wine_glass_spiral_rack_center_9" rgba="0.5731076728133042 0.13882029230171533 0.2901281249287494 1" class="collision"/>
+      <geom mesh="wine_glass_spiral_rack_center_10" rgba="0.9015141785266471 0.29360678876672075 0.0030480629892083444 1" class="collision"/>
+      <geom mesh="wine_glass_spiral_rack_center_11" rgba="0.3645138407000741 0.36411696534534255 0.06514030067294097 1" class="collision"/>
+      <geom mesh="wine_glass_spiral_rack_center_12" rgba="0.6624679570285397 0.6598955628804926 0.6527800972817533 1" class="collision"/>
+      <geom mesh="wine_glass_spiral_rack_center_13" rgba="0.043847256299164084 0.8382026283280729 0.689903103349682 1" class="collision"/>
+      <geom mesh="wine_glass_spiral_rack_center_14" rgba="0.23675086792216637 0.3681739196363192 0.7226564493413321 1" class="collision"/>
+      <geom mesh="wine_glass_spiral_rack_center_15" rgba="0.5827174349017273 0.22216723273634398 0.6110992140179832 1" class="collision"/>
+      <geom mesh="wine_glass_spiral_rack_center_16" rgba="0.2061262642254731 0.06882031283635859 0.4518584855955724 1" class="collision"/>
+      <geom mesh="wine_glass_spiral_rack_center_17" rgba="0.020370068091669746 0.686060019024754 0.05037521725343197 1" class="collision"/>
+      <geom mesh="wine_glass_spiral_rack_center_18" rgba="0.2295389664276415 0.27765577349424786 0.8501025063066058 1" class="collision"/>
+      <geom mesh="wine_glass_spiral_rack_center_19" rgba="0.08642005542000086 0.7240647471924383 0.9673722265979504 1" class="collision"/>
+      <geom mesh="wine_glass_spiral_rack_center_20" rgba="0.018690593517052823 0.7176739896104836 0.46186552620103105 1" class="collision"/>
+      <geom mesh="wine_glass_spiral_rack_center_21" rgba="0.12506302485859078 0.6395527493829003 0.8148516376197896 1" class="collision"/>
+      <geom mesh="wine_glass_spiral_rack_center_22" rgba="0.9919034629436673 0.6239730838235426 0.19987963586197488 1" class="collision"/>
+      <geom mesh="wine_glass_spiral_rack_center_23" rgba="0.6398732310721867 0.33481284912081455 0.560989476632651 1" class="collision"/>
+      <geom mesh="wine_glass_spiral_rack_center_24" rgba="0.04955720674067421 0.37312880229239787 0.22965506955342174 1" class="collision"/>
+      <geom mesh="wine_glass_spiral_rack_center_25" rgba="0.7417033312059753 0.09957898555780831 0.9482474370258972 1" class="collision"/>
+      <geom mesh="wine_glass_spiral_rack_center_26" rgba="0.38344595197812703 0.9563889886910681 0.10617121338973357 1" class="collision"/>
+      <geom mesh="wine_glass_spiral_rack_center_27" rgba="0.7175192495540174 0.3603783267256927 0.46290438769652764 1" class="collision"/>
+      <geom mesh="wine_glass_spiral_rack_center_28" rgba="0.33063836074230935 0.9152978262484369 0.8658548793021938 1" class="collision"/>
+      <geom mesh="wine_glass_spiral_rack_center_29" rgba="0.5073769281840687 0.15242463308728493 0.014101369585276191 1" class="collision"/>
+      <geom mesh="wine_glass_spiral_rack_center_30" rgba="0.25618553655278 0.9090537304285533 0.17192170569275467 1" class="collision"/>
+      <geom mesh="wine_glass_spiral_rack_center_31" rgba="0.7706131634119643 0.8872946816964032 0.6553313593156381 1" class="collision"/>
+      <geom mesh="wine_glass_spiral_rack_center_32" rgba="0.9731067159946978 0.7704757753368251 0.2182028498798465 1" class="collision"/>
+      <geom mesh="wine_glass_spiral_rack_center_33" rgba="0.4981134388387689 0.9615844865260234 0.7694328933920966 1" class="collision"/>
+      <geom mesh="wine_glass_spiral_rack_center_34" rgba="0.8832230740386199 0.5274425891861372 0.6291264505413959 1" class="collision"/>
+      <geom mesh="wine_glass_spiral_rack_center_35" rgba="0.2749287840421172 0.1694926033004841 0.5579099656046078 1" class="collision"/>
+      <geom mesh="wine_glass_spiral_rack_center_36" rgba="0.7028909015115515 0.2340794778717623 0.5978272107073431 1" class="collision"/>
+      <geom mesh="wine_glass_spiral_rack_center_37" rgba="0.4550534454655849 0.2306245609096671 0.879289709208907 1" class="collision"/>
+      <geom mesh="wine_glass_spiral_rack_center_38" rgba="0.1437443568412904 0.8352100876833084 0.12012712519855184 1" class="collision"/>
+      <geom mesh="wine_glass_spiral_rack_center_39" rgba="0.5563762733458237 0.16054785549776585 0.6877312710888113 1" class="collision"/>
+      <geom mesh="wine_glass_spiral_rack_center_40" rgba="0.3058092897267888 0.7843641246867339 0.838794418597938 1" class="collision"/>
+      <geom mesh="wine_glass_spiral_rack_center_41" rgba="0.9043708063329261 0.6912610189128822 0.9390081061179149 1" class="collision"/>
+      <geom mesh="wine_glass_spiral_rack_center_42" rgba="0.9209395777757929 0.003914837362086754 0.47563826830723765 1" class="collision"/>
+      <geom mesh="wine_glass_spiral_rack_center_43" rgba="0.9788419874959318 0.9681330733083853 0.7305604217940824 1" class="collision"/>
+      <geom mesh="wine_glass_spiral_rack_center_44" rgba="0.9652085732320326 0.49188664724674525 0.9014729298988641 1" class="collision"/>
+      <geom mesh="wine_glass_spiral_rack_center_45" rgba="0.2132444654288851 0.5018951162285462 0.42183271482047113 1" class="collision"/>
+      <geom mesh="wine_glass_spiral_rack_center_46" rgba="0.6471317716235045 0.4513206603601633 0.5483668206826013 1" class="collision"/>
+      <geom mesh="wine_glass_spiral_rack_center_47" rgba="0.010448210166075667 0.8559661730935837 0.2101317281898074 1" class="collision"/>
+      <geom mesh="wine_glass_spiral_rack_center_48" rgba="0.008824627495384596 0.5435599971716017 0.8492713147893649 1" class="collision"/>
+      <geom mesh="wine_glass_spiral_rack_center_49" rgba="0.5918531229222572 0.3762073766648819 0.17452018446392614 1" class="collision"/>
+      <geom mesh="wine_glass_spiral_rack_center_50" rgba="0.0886105629299796 0.5551252927619319 0.6287620571726478 1" class="collision"/>
+      <geom mesh="wine_glass_spiral_rack_center_51" rgba="0.610363848490246 0.9158083475718767 0.8960884935126908 1" class="collision"/>
+      <geom mesh="wine_glass_spiral_rack_center_52" rgba="0.5220429147496116 0.2270520506477588 0.3557088059903104 1" class="collision"/>
+      <geom mesh="wine_glass_spiral_rack_center_53" rgba="0.927392705522426 0.5917592328160064 0.977701884869032 1" class="collision"/>
+      <geom mesh="wine_glass_spiral_rack_center_54" rgba="0.7633769970664123 0.8301031058881607 0.12309795080537356 1" class="collision"/>
+      <geom mesh="wine_glass_spiral_rack_center_55" rgba="0.198467870822851 0.4856911928921178 0.10011333665673872 1" class="collision"/>
+      <geom mesh="wine_glass_spiral_rack_center_56" rgba="0.37098574530804107 0.4695859366045141 0.23955939283106686 1" class="collision"/>
+      <geom mesh="wine_glass_spiral_rack_center_57" rgba="0.708871864368367 0.09838035621398755 0.2974456530164138 1" class="collision"/>
+      <geom mesh="wine_glass_spiral_rack_center_58" rgba="0.4436404929449227 0.5605558296211592 0.6073427549446664 1" class="collision"/>
+      <geom mesh="wine_glass_spiral_rack_center_59" rgba="0.027205932611563344 0.32795852388642976 0.3346679696272291 1" class="collision"/>
+      <geom mesh="wine_glass_spiral_rack_center_60" rgba="0.17255298484534298 0.7876372094554547 0.6161691096812496 1" class="collision"/>
+      <geom mesh="wine_glass_spiral_rack_center_61" rgba="0.7683472105180391 0.07755920516106463 0.9885224158827272 1" class="collision"/>
+      <geom mesh="wine_glass_spiral_rack_center_62" rgba="0.5970530596168153 0.8169825423832751 0.9340669388942975 1" class="collision"/>
+      <geom mesh="wine_glass_spiral_rack_center_63" rgba="0.09235305919262704 0.05731435898268267 0.07184371413693447 1" class="collision"/>
+      <geom mesh="wine_glass_spiral_rack_center_64" rgba="0.615693190455377 0.7401359724340149 0.8990202530528684 1" class="collision"/>
+      <geom mesh="wine_glass_spiral_rack_center_65" rgba="0.7325932645178115 0.9196899455373401 0.2770922495339959 1" class="collision"/>
+      <geom mesh="wine_glass_spiral_rack_center_66" rgba="0.24459202733126018 0.38648129490447747 0.5152807495418528 1" class="collision"/>
+    </body>
+  </worldbody>
+</mujoco>

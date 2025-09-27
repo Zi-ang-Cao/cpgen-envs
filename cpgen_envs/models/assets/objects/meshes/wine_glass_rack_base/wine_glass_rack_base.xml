@@ -1,0 +1,94 @@
+<mujoco model="wine_glass_rack_base">
+  <default>
+    <default class="visual">
+      <geom group="2" type="mesh" contype="0" conaffinity="0"/>
+    </default>
+    <default class="collision">
+      <geom group="3" type="mesh"/>
+    </default>
+  </default>
+  <asset>
+    <mesh file="wine_glass_rack_base.obj"/>
+    <mesh file="wine_glass_rack_base_collision_0.obj"/>
+    <mesh file="wine_glass_rack_base_collision_1.obj"/>
+    <mesh file="wine_glass_rack_base_collision_2.obj"/>
+    <mesh file="wine_glass_rack_base_collision_3.obj"/>
+    <mesh file="wine_glass_rack_base_collision_4.obj"/>
+    <mesh file="wine_glass_rack_base_collision_5.obj"/>
+    <mesh file="wine_glass_rack_base_collision_6.obj"/>
+    <mesh file="wine_glass_rack_base_collision_7.obj"/>
+    <mesh file="wine_glass_rack_base_collision_8.obj"/>
+    <mesh file="wine_glass_rack_base_collision_9.obj"/>
+    <mesh file="wine_glass_rack_base_collision_10.obj"/>
+    <mesh file="wine_glass_rack_base_collision_11.obj"/>
+    <mesh file="wine_glass_rack_base_collision_12.obj"/>
+    <mesh file="wine_glass_rack_base_collision_13.obj"/>
+    <mesh file="wine_glass_rack_base_collision_14.obj"/>
+    <mesh file="wine_glass_rack_base_collision_15.obj"/>
+    <mesh file="wine_glass_rack_base_collision_16.obj"/>
+    <mesh file="wine_glass_rack_base_collision_17.obj"/>
+    <mesh file="wine_glass_rack_base_collision_18.obj"/>
+    <mesh file="wine_glass_rack_base_collision_19.obj"/>
+    <mesh file="wine_glass_rack_base_collision_20.obj"/>
+    <mesh file="wine_glass_rack_base_collision_21.obj"/>
+    <mesh file="wine_glass_rack_base_collision_22.obj"/>
+    <mesh file="wine_glass_rack_base_collision_23.obj"/>
+    <mesh file="wine_glass_rack_base_collision_24.obj"/>
+    <mesh file="wine_glass_rack_base_collision_25.obj"/>
+    <mesh file="wine_glass_rack_base_collision_26.obj"/>
+    <mesh file="wine_glass_rack_base_collision_27.obj"/>
+    <mesh file="wine_glass_rack_base_collision_28.obj"/>
+    <mesh file="wine_glass_rack_base_collision_29.obj"/>
+    <mesh file="wine_glass_rack_base_collision_30.obj"/>
+    <mesh file="wine_glass_rack_base_collision_31.obj"/>
+    <mesh file="wine_glass_rack_base_collision_32.obj"/>
+    <mesh file="wine_glass_rack_base_collision_33.obj"/>
+    <mesh file="wine_glass_rack_base_collision_34.obj"/>
+    <mesh file="wine_glass_rack_base_collision_35.obj"/>
+    <mesh file="wine_glass_rack_base_collision_36.obj"/>
+    <mesh file="wine_glass_rack_base_collision_37.obj"/>
+  </asset>
+  <worldbody>
+    <body name="wine_glass_rack_base">
+      <geom mesh="wine_glass_rack_base" class="visual"/>
+      <geom mesh="wine_glass_rack_base_collision_0" rgba="0.4703830896133042 0.10962438401937724 0.08677491330890075 1" class="collision"/>
+      <geom mesh="wine_glass_rack_base_collision_1" rgba="0.6563887023209273 0.4802503735310417 0.08235744567877634 1" class="collision"/>
+      <geom mesh="wine_glass_rack_base_collision_2" rgba="0.06634119272274586 0.807503619932344 0.29864337271308183 1" class="collision"/>
+      <geom mesh="wine_glass_rack_base_collision_3" rgba="0.21878933060246242 0.3712597839419989 0.8607753799673301 1" class="collision"/>
+      <geom mesh="wine_glass_rack_base_collision_4" rgba="0.016572217533480593 0.5415044889657187 0.4444585130111446 1" class="collision"/>
+      <geom mesh="wine_glass_rack_base_collision_5" rgba="0.27026582789065956 0.7452656757848937 0.16793025639082837 1" class="collision"/>
+      <geom mesh="wine_glass_rack_base_collision_6" rgba="0.7293634901648172 0.15776662875632375 0.6125038420035501 1" class="collision"/>
+      <geom mesh="wine_glass_rack_base_collision_7" rgba="0.48452314655426953 0.11474088323072296 0.8595326312120578 1" class="collision"/>
+      <geom mesh="wine_glass_rack_base_collision_8" rgba="0.119084610103116 0.21300843814836246 0.3318935003878013 1" class="collision"/>
+      <geom mesh="wine_glass_rack_base_collision_9" rgba="0.949869478748043 0.8082336594166458 0.008076931289403677 1" class="collision"/>
+      <geom mesh="wine_glass_rack_base_collision_10" rgba="0.6669054477555009 0.8576388671764433 0.7592677917314266 1" class="collision"/>
+      <geom mesh="wine_glass_rack_base_collision_11" rgba="0.5912421036933934 0.05856885917217536 0.04205603756176002 1" class="collision"/>
+      <geom mesh="wine_glass_rack_base_collision_12" rgba="0.04494602202510811 0.29600756114897786 0.789961236384005 1" class="collision"/>
+      <geom mesh="wine_glass_rack_base_collision_13" rgba="0.524837348409882 0.045757446614247965 0.16661690407478624 1" class="collision"/>
+      <geom mesh="wine_glass_rack_base_collision_14" rgba="0.5400481862095733 0.7991755047992306 0.08600825659937783 1" class="collision"/>
+      <geom mesh="wine_glass_rack_base_collision_15" rgba="0.7526788241445609 0.72396888074684 0.9554734895770808 1" class="collision"/>
+      <geom mesh="wine_glass_rack_base_collision_16" rgba="0.7527913009272467 0.5984445805640856 0.9519892932741925 1" class="collision"/>
+      <geom mesh="wine_glass_rack_base_collision_17" rgba="0.2674187633393659 0.14966271700854072 0.4142724150719497 1" class="collision"/>
+      <geom mesh="wine_glass_rack_base_collision_18" rgba="0.8477241227519613 0.9237998012699556 0.7171217147365658 1" class="collision"/>
+      <geom mesh="wine_glass_rack_base_collision_19" rgba="0.8396791493589287 0.7324506679798384 0.8799116100122163 1" class="collision"/>
+      <geom mesh="wine_glass_rack_base_collision_20" rgba="0.8886457264014813 0.6025988319795783 0.21178760548422004 1" class="collision"/>
+      <geom mesh="wine_glass_rack_base_collision_21" rgba="0.038431835031717654 0.13818294232156547 0.007492368976660502 1" class="collision"/>
+      <geom mesh="wine_glass_rack_base_collision_22" rgba="0.41416836803232426 0.4311829014642138 0.9779679675796386 1" class="collision"/>
+      <geom mesh="wine_glass_rack_base_collision_23" rgba="0.23260599850618957 0.646142090646975 0.41737077176672577 1" class="collision"/>
+      <geom mesh="wine_glass_rack_base_collision_24" rgba="0.3647281287544507 0.7539397886124651 0.8621115072388473 1" class="collision"/>
+      <geom mesh="wine_glass_rack_base_collision_25" rgba="0.936955948030252 0.8128277388456552 0.013846262456930991 1" class="collision"/>
+      <geom mesh="wine_glass_rack_base_collision_26" rgba="0.3489076790671177 0.3559491572105016 0.10149461051524 1" class="collision"/>
+      <geom mesh="wine_glass_rack_base_collision_27" rgba="0.43685707920491934 0.9743016938718683 0.5362865233447237 1" class="collision"/>
+      <geom mesh="wine_glass_rack_base_collision_28" rgba="0.5644375446254456 0.43480722394312454 0.4548592777285889 1" class="collision"/>
+      <geom mesh="wine_glass_rack_base_collision_29" rgba="0.1448439647065468 0.26404665050749365 0.3257025840144018 1" class="collision"/>
+      <geom mesh="wine_glass_rack_base_collision_30" rgba="0.6502672164361577 0.731429359993492 0.3686984012200798 1" class="collision"/>
+      <geom mesh="wine_glass_rack_base_collision_31" rgba="0.8467763448645855 0.7418405795746301 0.5030431693908564 1" class="collision"/>
+      <geom mesh="wine_glass_rack_base_collision_32" rgba="0.14766802639732224 0.733485764557056 0.600765657450186 1" class="collision"/>
+      <geom mesh="wine_glass_rack_base_collision_33" rgba="0.001097929497409278 0.6572273876746267 0.8144593313069881 1" class="collision"/>
+      <geom mesh="wine_glass_rack_base_collision_34" rgba="0.20513033136315673 0.20620553138228725 0.7771457923712022 1" class="collision"/>
+      <geom mesh="wine_glass_rack_base_collision_35" rgba="0.7742127318255431 0.4481078877764755 0.687056585046403 1" class="collision"/>
+      <geom mesh="wine_glass_rack_base_collision_36" rgba="0.5375357001418459 0.9768723756495601 0.7531260284227426 1" class="collision"/>
+      <geom mesh="wine_glass_rack_base_collision_37" rgba="0.5613885631686649 0.7630807181075052 0.02163658760812015 1" class="collision"/>
+    </body>
+  </worldbody>
+</mujoco>

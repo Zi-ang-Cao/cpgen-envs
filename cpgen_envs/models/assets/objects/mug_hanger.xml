@@ -1,0 +1,38 @@
+<mujoco model="mug_hanger">
+  <compiler angle="degree"/>
+  <option timestep="0.001"/>
+
+  <worldbody>
+<body>
+    <body name="object" pos="0 0 0">
+      
+      <!-- Base: radius 0.08 m, height 0.015 m -->
+      <geom name="base" type="box" pos="0 0 0.0075" size="0.08 0.08 0.0075" density="1000" rgba="0.87 0.7 0.45 1" group="0"/>
+      <geom name="base_1" type="cylinder" pos="0 0 0.0075" size="0.08 0.0075" density="1000" rgba="0.87 0.7 0.45 1" group="1" contype="0" conaffinity="0"/>
+
+      <!-- Stem: height 0.33 m, diameter 0.025 m (radius 0.0125 m) -->
+      <geom name="stem" type="cylinder" pos="0 0 0.18" size="0.0125 0.17" density="100" rgba="0.87 0.7 0.45 1" group="0"/>
+      <geom name="stem_1" type="cylinder" pos="0 0 0.18" size="0.0125 0.17" density="100" rgba="0.87 0.7 0.45 1" group="1" contype="0" conaffinity="0"/>
+
+      <!-- Lowest branch pair (base z = 0.13 m) -->
+      <geom name="branch_low_right" type="cylinder" fromto="0 0 0.13  0.090216 0 0.167832" size="0.005" density="500" rgba="0.87 0.7 0.45 1" group="0"/>
+      <geom name="branch_low_right_1" type="cylinder" fromto="0 0 0.13  0.090216 0 0.167832" size="0.005" density="500" rgba="0.87 0.7 0.45 1" group="1" contype="0" conaffinity="0"/>
+      <geom name="branch_low_left" type="cylinder" fromto="0 0 0.13  -0.090216 0 0.167832" size="0.005" density="500" rgba="0.87 0.7 0.45 1" group="0"/>
+      <geom name="branch_low_left_1" type="cylinder" fromto="0 0 0.13  -0.090216 0 0.167832" size="0.005" density="500" rgba="0.87 0.7 0.45 1" group="1" contype="0" conaffinity="0"/>
+
+      <!-- Middle branch pair (base z = 0.22 m) -->
+      <geom name="branch_mid_right" type="cylinder" fromto="0 0 0.22  0 0.090216 0.257832" size="0.005" density="500" rgba="0.87 0.7 0.45 1" group="0"/>
+      <geom name="branch_mid_right_1" type="cylinder" fromto="0 0 0.22  0 0.090216 0.257832" size="0.005" density="500" rgba="0.87 0.7 0.45 1" group="1" contype="0" conaffinity="0"/>
+      <geom name="branch_mid_left" type="cylinder" fromto="0 0 0.22  0 -0.090216 0.257832" size="0.005" density="500" rgba="0.87 0.7 0.45 1" group="0"/>
+      <geom name="branch_mid_left_1" type="cylinder" fromto="0 0 0.22  0 -0.090216 0.257832" size="0.005" density="500" rgba="0.87 0.7 0.45 1" group="1" contype="0" conaffinity="0"/>
+
+      <!-- Top branch pair (base z = 0.31 m) -->
+      <geom name="branch_top_right" type="cylinder" fromto="0 0 0.31  0.090132 0.004716 0.347832" size="0.005" density="500" rgba="0.87 0.7 0.45 1" group="0"/>
+      <geom name="branch_top_right_1" type="cylinder" fromto="0 0 0.31  0.090132 0.004716 0.347832" size="0.005" density="500" rgba="0.87 0.7 0.45 1" group="1" contype="0" conaffinity="0"/>
+      <geom name="branch_top_left" type="cylinder" fromto="0 0 0.31  -0.090132 -0.004716 0.347832" size="0.005" density="500" rgba="0.87 0.7 0.45 1" group="0"/>
+      <geom name="branch_top_left_1" type="cylinder" fromto="0 0 0.31  -0.090132 -0.004716 0.347832" size="0.005" density="500" rgba="0.87 0.7 0.45 1" group="1" contype="0" conaffinity="0"/>
+
+    </body>
+  </body>
+  </worldbody>
+</mujoco>
